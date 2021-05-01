@@ -1,0 +1,262 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+/* Global css */
+
+.pad-90{
+
+	padding: 90px;
+}
+
+.pad-20{
+	padding: 20px;
+}
+
+.pad-t13{
+	padding-top: 13px;
+}
+
+.pad-t20{
+	padding-top: 40px;
+}
+
+.pad-b50{
+	padding-bottom: 50px;
+}
+
+.mgn-bottom-70{
+	margin-bottom: 70px;
+
+}
+.text-centre{
+	text-align: center;
+}
+
+.header-wraper{
+
+	overflow: auto;
+}
+*{
+	box-sizing: border-box;
+}
+
+/* Full website structure */
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+
+/* Logo work start here */
+.logo{
+	float: left;
+	width: 200px;
+
+}
+
+.logo img{
+	max-width: 100%;
+	display: block;
+	padding-top: 9px;
+}
+
+/* Logo work end here */
+
+
+/* Nav work start here */
+.nav{
+	float: right;
+	width: 700px;
+}
+
+.nav-menu{
+	list-style: none;
+
+}
+
+.nav-menu li{
+	float: left;
+	margin-left: 75px;
+	font-size: 14pt;
+	font-family: arial;	
+	text-transform: uppercase;
+}
+
+.nav-menu li a{
+	text-decoration: none;
+	color: #666666;
+}
+/* Nav work end here */
+
+/* Banner style start here */
+
+.banner{
+	padding-top: 70px;
+}
+
+.banner img{
+	width: 100%;
+}
+/* Banner style end here */
+
+
+/* Photodairy section style start here */
+
+.tag , .comment{
+
+	font-family: arial;
+	font-size: 14pt;
+	color: #666666;
+	text-transform: uppercase;
+	text-decoration: none;
+
+}
+
+/* Main title  */
+
+.main-title{
+	font-family: arial;
+	font-size: 30pt;
+	color: #666666;
+}
+
+/* Description style */
+
+.des{
+	font-family: arial;
+	font-size: 14pt;
+	text-align: justify;
+	color: #666666;
+	line-height: 1.6;
+	margin-bottom: 40px;
+}
+
+/* Photodairy section style end here */
+
+/* 1st row style start here */
+.post{
+	width: 47%;
+}
+
+.post img{
+	width: 100%;
+}
+
+.post p{
+	text-align: justify;
+}
+.post h1{
+	font-size: 30px;
+}
+
+.tag-mgn{
+	margin: 30px 0px;
+}
+
+.right{
+	float: right;
+}
+
+/* floating using */
+
+.left-post{
+	float: left;
+}
+
+.right-post{
+	float: right;
+}
+
+.row{
+	overflow: auto;
+}
+
+/* News letter style start here */
+
+.news-letter-background{
+
+	background-color: #e9e7e7;
+}
+
+/* Form style start here */
+
+form{
+	width: 500px;
+	margin: 0px auto;
+}
+
+.input-control{
+	width: 100%;
+	height: 50px;
+	border: none;
+	outline: none;
+	border-bottom: 2px solid #000000;
+	background-color: transparent;
+}
+
+.input-group{
+	position: relative;
+
+}
+
+.paper-plane{
+	position: absolute;
+	top: 50%;
+	right: 0px;
+}
+
+/* Button style */
+
+.btn{
+
+	padding : 20px 34px;
+	cursor: pointer;
+
+}
+
+.footer-left{
+	float: left;
+}
+
+.footer-right{
+	float: right;
+	padding-right: 10px;
+}
+
+footer{
+	overflow: auto;
+}
+
+.footer-menu{
+	list-style: none;
+}
+
+.footer-menu li{
+	float: left;
+	margin-left: 31px;
+	color: #666666;
+	text-decoration: none;
+}
+
+.footer-menu a{
+
+	color: #666666;
+	text-decoration: none;
+}
+
+/* global css */
+.ftp{
+	font-size: 14pt;
+	color: #666666;
+}
+
+.footer-color{
+	background: #e9e7e7;
+}
+
+.pad-top-bot{
+	padding: 30px;
+}
